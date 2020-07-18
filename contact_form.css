@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+
+*{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+    
+    box-sizing: border-box;
+}
+
+.element{
+    background-color: white;
+    /* margin-top:10px; */
+    margin-bottom: 10px;
+    padding : 30px;
+    border-radius: 10px;
+}
+input:focus{
+    outline:none;
+    background-color: #fff;
+}
+button{
+    border: none;
+    display: inline-block;
+    background-color: white;
+    padding: 10px 20px;
+    /* margin-left:  calc(100vh - 120px); */
+    border-radius: 9px;
+    width: 120px;
+    /* margin:auto; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: large;
+}
+input{
+    padding:0px ; 
+    border-top: none ;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px #84b990 solid; /* rgba(153, 211, 166, 1.1)*/
+    
+    font-size: 20px;
+    background-color: #fff;
+    background-color:  none !important;
+    color: #000 !important;
+
+}
+.width_input{
+    width: 280px;
+}
+
+
+.heading{
+    border-top: solid 10px #84b990;
+    background-color: white;
+    margin-top: 20px;
+    padding : 15px 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+label{
+    font-size: larger;
+}
+p{
+    font-size: large;
+}
+.sub-heading{
+    border-bottom:solid 3px #84b990 ;
+}
+@media(min-width:992px){
+    #media_que{
+        width: 65%;
+    }
+}
